@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito Sans', sans-serif;
-    color: #111517;
+    color: #fff;
 }
 *:focus{
     outline: none;
@@ -26,9 +26,9 @@ html{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #FFFFFF;
+    background-color: #2B3844;
     z-index: 100;
-    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.0532);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.0562));
 }
 /* ----- NAVBAR ------- */
 .navbar{
@@ -59,7 +59,7 @@ html{
 /* ----- MAIN ----- */
 .site-main{
     padding-top: 12.8rem;
-    background-color: #F2F2F2;
+    background-color: #202C36;
 }
 /* ----- SEARCH -------------- */
 .search{
@@ -73,9 +73,9 @@ html{
     padding: 1.8rem 3.2rem;
     display: flex;
     align-items: center;
-    background-color: #fff;
+    background-color: #2B3844;
     border-radius: 0.5rem;
-    box-shadow: 0 2px 9px  rgba(0, 0, 0, 0.0294);
+    box-shadow: 0 2px 9px  rgba(0, 0, 0, 0.0532);
 }
 .search-left img{
     width: 1.8rem;
@@ -87,16 +87,16 @@ html{
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 2rem;
-    color: #848484;
+    color: #fff;
     border: none;
     background: transparent;
 }
 .search-left input::placeholder{
-    color: #848484;
+    color: #fff;
 }
 .search-right{
     width: 20rem;
-    background-color: #fff;
+    background-color: #2B3844;
     padding: 1.8rem 2.4rem;
     border-radius: 0.5rem;
     box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.0532);
@@ -117,7 +117,7 @@ html{
 }
 .countries-item{
     width: 26.4rem;
-    background-color: #fff;
+    background-color: #2B3844;
     justify-self: center;
     border-radius: 0.5rem;
     box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.0294);
